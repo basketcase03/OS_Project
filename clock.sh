@@ -2,6 +2,8 @@
 
 # LINUX SHELL SCRIPTING
 
+# START-------------------------------------------------------------------------->
+
 
 # Checking the time format entered by the user
 
@@ -32,4 +34,5 @@ echo "To stop this clock Execute ps command and then use kill {PID} command"
      tput rc;                               # Restore the saved cursor position
                                
  done &
-
+ 
+# END---------------------------------------------------------------------------->
