@@ -14,12 +14,12 @@ elif [[ $1 == "2" ]]            # For 12 hour format
 	then
 	format=r
 else
-	echo "Please provide valid argument (1 to use 24 hour format and 2 to use 12 hour format)"    #Invalid Argument or No Argument
+	printf "%s\n" "Please provide valid argument (1 to use 24 hour format and 2 to use 12 hour format)"    #Invalid Argument or No Argument
 	exit 1
 fi
 
-echo "Digital Clock Running...."
-echo "To stop this clock Execute ps command and then use kill {PID} command"
+printf "%s\n" "Digital Clock Running...."
+printf "%s\n" "To stop this clock Execute ps command and then use kill {PID} command"
 
  while sleep 1;                             # Delay for 1 second 
 
