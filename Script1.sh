@@ -24,7 +24,7 @@ printf "%s\n" "To stop this clock, execute ps command and then use kill {PID} co
 
 for (( ; ; ))
 
-	do tput sc;                            # Save the Current cursor position
+    do tput sc;                            # Save the Current cursor position
                               
     tput cup 0 $(($(tput cols)-15));       # Move cursor to row 0 and column 15 from the right side
            
