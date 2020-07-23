@@ -3,7 +3,7 @@
 # LINUX SHELL SCRIPTING
 
 
-# Checking the time format entered by the user
+# Checking the time format entered by the user------------------------------------------>
 
 if [[ $1 == "1" ]]              # For 24 hour format
 then
@@ -19,7 +19,7 @@ fi
 printf "%s\n" "Digital Clock Running...."
 printf "%s\n" "To stop this clock, execute ps command and then use kill {PID} command"
 
-#Using infinite for loop------------->
+# Main Script--------------------------------------------------------------------------->
 
 
 for (( ; ; ))
